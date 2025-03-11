@@ -2,7 +2,6 @@ INSERT INTO menu (id_producto, nombre_producto, precio) VALUES
 	(1,'sushi',10.00),
 	(2,'curry',15.00),
 	(3,'ramen',12.00),
-	(4,'noodles', NULL);
 
 INSERT INTO miembro (id_cliente, fecha_alta) VALUES
 	('A', DATE_FORMAT(DATE_SUB(NOW(), INTERVAL 1 YEAR), '%Y-01-07')),
